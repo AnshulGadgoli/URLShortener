@@ -4,7 +4,7 @@ from io import BytesIO
 from datetime import datetime
 
 app = Flask(__name__)
-API_KEY = "fbff309716966604f45e6fb7891dbfdcd849d"
+API_KEY = "Your_Api_Token" #You can put your API token here. 
 DB = "links.db"
 
 def init_db():
